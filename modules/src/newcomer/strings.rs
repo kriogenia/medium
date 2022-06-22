@@ -1,0 +1,1 @@
+pub const HELLO: &'static str = "Hello Math World!"; 

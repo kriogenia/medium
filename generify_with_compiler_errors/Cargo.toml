@@ -2,7 +2,7 @@
 name = "generify_with_compiler_errors"
 version = "0.1.0"
 edition = "2021"
-authors = [ "ricardo@sotoestevez.dev" ]
+authors = ["Soto Estévez <ricardo@sotoestevez.dev>"]
 
 [dependencies]
 num = "0.4"

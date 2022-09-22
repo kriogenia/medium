@@ -1,0 +1,21 @@
+[package]
+name = "sotoestevez_medium"
+version = "0.1.0"
+
+[workspace]
+members = ["add_trait", "beginning_tips", "generify_with_compiler_errors", "modules", "scoped_threads" ]
+
+[workspace.package]
+edition = "2021"
+authors = ["Soto Estévez <ricardo@sotoestevez.dev>"]
+description = "Demos of the articles at https://medium.com/@sotoestevez"
+documentation = "https://medium.com/@sotoestevez"
+readme = "./README.md"
+homepage = "https://www.sotoestevez.dev"
+repository = "https://github.com/kriogenia/medium"
+license = "MIT OR Apache-2.0"
+
+[workspace.dependencies]
+num = { version = "0.4", default-features = false }
+vector2d = "2.2"
+rand = "0.8.5"

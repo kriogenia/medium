@@ -2,6 +2,5 @@
 name = "beginning_tips"
 version = "0.1.0"
 edition = "2021"
-authors = ["Soto Estévez <ricardo@sotoestevez.dev>"]
 
 [dependencies]

@@ -5,5 +5,8 @@ edition = "2021"
 authors = ["Soto Estévez <ricardo@sotoestevez.dev>"]
 
 [dependencies]
-num = "0.4"
-vector2d = "2.2"
+num = { workspace = true, default-features = true }
+vector2d.workspace = true
+
+[dev-dependencies]
+rand = { workspace = true, features = [ "log" ] }

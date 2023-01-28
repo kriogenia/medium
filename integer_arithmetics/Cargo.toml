@@ -1,0 +1,11 @@
+[package]
+name = "integer_arithmetics"
+version = "0.1.0"
+edition.workspace = true
+authors.workspace = true
+description = "Explanining how integer arithmetics work in Rust"
+homepage.workspace = true
+repository.workspace = true
+license.workspace = true
+
+[dependencies]

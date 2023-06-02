@@ -3,7 +3,15 @@ name = "sotoestevez_medium"
 version = "0.1.0"
 
 [workspace]
-members = ["add_trait", "beginning_tips", "generify_with_compiler_errors", "modules", "scoped_threads" ]
+members = [
+	"add_trait", 
+	"beginning_tips", 
+	"generify_with_compiler_errors", 
+	"integer_arithmetics", 
+	"modules", 
+	"oncelock",
+	"scoped_threads" 
+	]
 
 [workspace.package]
 edition = "2021"

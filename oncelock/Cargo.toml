@@ -1,0 +1,11 @@
+[package]
+name = "oncelock"
+version = "0.1.0"
+edition.workspace = true
+authors.workspace = true
+description = "Brief example of this new addition of Rust 1.70"
+homepage.workspace = true
+repository.workspace = true
+license.workspace = true
+
+[dependencies]
